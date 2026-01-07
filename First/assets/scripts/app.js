@@ -99,8 +99,34 @@
 //     console.log('Access Not Granted')
 // }
 
-const hobbies = ['Sports','Cooking']
+// const hobbies = ['Sports','Cooking']
 
-for(const hobby of hobbies){
-    console.log(hobby)
-}
+// for(const hobby of hobbies){
+//     console.log(hobby)
+// }
+
+// setTimeout(() => {
+//   console.log("Timeout");
+// }, 1000);
+
+// function greeter(greetFn){
+//     greetFn();
+// }
+// greeter(()=>console.log('hi'));
+
+// function init() {
+//   function greet() {
+//     console.log("Hi!");
+//   }
+//   greet();
+// }
+
+// init();
+
+let userMessage = "Hello!";
+userMessage = userMessage.concat("!!!");
+
+const hobbies = ['Sports','Cooking']
+hobbies.push('Working');
+
+console.log(hobbies)
